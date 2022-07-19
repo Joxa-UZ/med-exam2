@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-  
+
   
   
   <!-- SITE HEADER START -->
@@ -120,63 +120,66 @@
       <div class="container">
         <h2 class="services__theme">Наши услуги</h2>
         
-        <ul class="services__list">
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Первичный осмотр</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Первичный осмотр</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Хирургическое вмешательство</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Дерматология</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Лабораторная диагностика</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Офтальмология</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">УЗИ
-              диагностика</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Чипирование</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Международные паспорта</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Вакцинация</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Стоматология</h3>
-          </a>
-          </li>
-          <li class="services__item"><a href="#" class="services__link">
-            <h3 class="services__itemtheme">Вызов на дом</h3>
-          </a>
-          </li>
-        </ul>
+        <div class="services__listbox">
+          <ul class="services__list">
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Первичный осмотр</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Первичный осмотр</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Хирургическое вмешательство</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Дерматология</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Лабораторная диагностика</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Офтальмология</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">УЗИ
+                диагностика</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Чипирование</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Международные паспорта</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Вакцинация</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Стоматология</h3>
+            </a>
+            </li>
+            <li class="services__item"><a href="#" class="services__link">
+              <h3 class="services__itemtheme">Вызов на дом</h3>
+            </a>
+            </li>
+          </ul>
+        </div>
+        
 
         <div class="services__info">
           <img src="./images/osmotr-img.jpg" width="524" height="329" alt="cat with doctor"  class="services__infoimg">
 
           <div class="services__infobox">
-            <h3 class="services__infotheme">Первичный осмотр</h3>
+            <h4 class="services__infotheme">Первичный осмотр</h4>
             <p class="services__infotext">
               По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.
             </p>
@@ -201,7 +204,7 @@
           <form class="subscribe__form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
 
             <label>
-              <input type="email" class="subscribe__input" name="your email" aria-label="enter your email" placeholder="Укажите Ваш email адрес" required>
+              <input type="email" class="subscribe__input" name="your email" aria-label="enter your email" placeholder="Укажите Ваш email адрес" minlength="1" required>
             </label>
 
             <button class="subscribe__button">Подписаться</button>
@@ -236,9 +239,10 @@
 
             <div class="useful__itemactive">
               <div class="useful__activetop">
-                <p class="useful__xeshtag">
-                  #собака #дом #уход
-                </p>
+                <a class="useful__xeshtag" href="#">#собака</a>
+                <a class="useful__xeshtag" href="#">#дом</a>
+                <a class="useful__xeshtag" href="#">#уход</a>
+               
 
                 <time datetime="2020-08-29">29.08.2020</time>
               </div>
@@ -288,12 +292,12 @@
           <form class="contact__form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
   
             <label>
-              <input type="text" class="contact__input" aria-label="enter your name" name="name" placeholder="Ваше имя" maxlength="2" required>
+              <input type="text" class="contact__input" aria-label="enter your name" name="name" placeholder="Ваше имя" minlength="2" required>
             </label><br>
             <label>
               <input type="email" class="contact__input" aria-label="enter your email" name="email" placeholder="Email для обратной связи" required>
             </label><br>
-            <textarea name="your text"  cols="30" rows="10" aria-label="enter message" placeholder="Опишите Ваш вопрос." value="Например: в каком возрасте можно прививать от бешенства?"></textarea>
+            <textarea class="contact__textarea" name="your text"  cols="30" rows="10" aria-label="enter message" placeholder="Опишите Ваш вопрос." minlength="2"></textarea>
 
             <button class="contact__button">Задать нам вопрос</button>
           </form>
@@ -315,24 +319,34 @@
     <footer class="site-footer">
       <div class="container">
             <div class="site-footer__box">
-             <a href="#"><img src="./images/header-logo.svg" width="158" height="77" alt="site logo" class="site-footer__logo"></a> 
+             <a class="site-footer__logo" href="./index.html"><img src="./images/header-logo.svg" width="158" height="77" alt="site logo" ></a> 
 
               <div class="site-footer__navbox">
                 <ul class="site-footer__list">
-                  <li class="site-footer__item"><a href="#" class="site-footer__link">Главная</a>
+                  <li class="site-footer__item">
+                    <a href="#" class="site-footer__link">Главная</a>
                   </li>
-                  <li class="site-footer__item"><a href="#" class="site-footer__link">О Клинике</a>
+                  <li class="site-footer__item">
+                    <a href="#" class="site-footer__link">О Клинике
+                    </a>
                   </li>
-                  <li class="site-footer__item"><a href="#" class="site-footer__link">Наши Услуги</a>
+                  <li class="site-footer__item">
+                    <a href="#" class="site-footer__link">Наши Услуги
+                    </a>
                   </li>
                 </ul>
 
                 <ul class="site-footer__list2">
-                  <li class="site-footer__item2"><a href="#" class="site-footer__link">Полезные Статьи</a>
+                  <li class="site-footer__item2">
+                    <a href="#" class="site-footer__link">Полезные Статьи
+                    </a>
                   </li>
-                  <li class="site-footer__item2"><a href="#" class="site-footer__link">FAQ</a>
+                  <li class="site-footer__item2">
+                    <a href="#" class="site-footer__link">FAQ</a>
                   </li>
-                  <li class="site-footer__item2"><a href="#" class="site-footer__link">Контакты</a>
+                  <li class="site-footer__item2">
+                    <a href="#" class="site-footer__link">Контакты
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -353,11 +367,17 @@
                 </li>
                 <li class="site-footer__dataitem">
                   <ul class="site-footer__inlist">
-                    <li class="site-footer__iniitem"><a href="tel:0676347574" class="site-footer__inlink">(067) 634 -75 - 74</a>
+                    <li class="site-footer__iniitem">
+                    <a href="tel:0676347574" class="site-footer__inlink">(067) 634 -75 - 74
+                    </a>
                     </li>
-                    <li class="site-footer__iniitem"><a href="tel:0637570131" class="site-footer__inlink">(0637) 57 - 01 - 31</a>
+                    <li class="site-footer__iniitem">
+                    <a href="tel:0637570131" class="site-footer__inlink">(0637) 57 - 01 - 31
+                    </a>
                     </li>
-                    <li class="site-footer__iniitem"><a href="tel:0982664389" class="site-footer__inlink">(098) 266 - 43 - 89</a>
+                    <li class="site-footer__iniitem">
+                    <a href="tel:0982664389" class="site-footer__inlink">(098) 266 - 43 - 89
+                    </a>
                     </li>
                   </ul>
                 </li>
