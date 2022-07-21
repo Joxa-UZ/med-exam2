@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vet clinic | Javohir</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+  <link rel="stylesheet" href="./css/faq.css">
+  <link rel="stylesheet" href="./css/services.css">
   <link rel="stylesheet" href="./css/main.css">
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
@@ -55,17 +57,17 @@
             <img class="header-under__logo" src="./images/header-logo.svg" width="178" height="86" alt="vet logo">
           </a>
           <ul class="header-under__list">
-            <li class="header-under__item"><a href="" class="header-under__link">Главная</a>
+            <li class="header-under__item"><a href="./index.html" class="header-under__link">Главная</a>
             </li>
-            <li class="header-under__item"><a href="" class="header-under__link">О Клинике</a>
+            <li class="header-under__item"><a href="#" class="header-under__link">О Клинике</a>
             </li>
             <li class="header-under__item"><a href="./services.html" class="header-under__link">Наши Услуги</a>
             </li>
-            <li class="header-under__item"><a href="" class="header-under__link">Полезные Статьи</a>
+            <li class="header-under__item"><a href="#" class="header-under__link">Полезные Статьи</a>
             </li>
-            <li class="header-under__item"><a href="" class="header-under__link">FAQ</a>
+            <li class="header-under__item"><a href="./faq.html" class="header-under__link">FAQ</a>
             </li>
-            <li class="header-under__item"><a href="" class="header-under__link">Контакты</a>
+            <li class="header-under__item"><a href="./contact.html" class="header-under__link">Контакты</a>
             </li>
           </ul>
           
@@ -324,7 +326,7 @@
               <div class="site-footer__navbox">
                 <ul class="site-footer__list">
                   <li class="site-footer__item">
-                    <a href="#" class="site-footer__link">Главная</a>
+                    <a href="./index.html" class="site-footer__link">Главная</a>
                   </li>
                   <li class="site-footer__item">
                     <a href="#" class="site-footer__link">О Клинике
@@ -342,10 +344,10 @@
                     </a>
                   </li>
                   <li class="site-footer__item2">
-                    <a href="#" class="site-footer__link">FAQ</a>
+                    <a href="./faq.html" class="site-footer__link">FAQ</a>
                   </li>
                   <li class="site-footer__item2">
-                    <a href="#" class="site-footer__link">Контакты
+                    <a href="./contact.html" class="site-footer__link">Контакты
                     </a>
                   </li>
                 </ul>
@@ -390,5 +392,26 @@
     </footer>
     <!-- SITE FOOTER END -->
     
+
+    <div class="modal">
+      <div class="modal-card">
+          <button class="modal__x"></button>
+        <div class="modal__btn-group">
+          <p class="modal__text">Авторизация:</p>
+          <a class="modal__link" href="#" target="blank">Войти через Google</a>
+          <a class="modal__link modal__link--facebook" href="#" target="blank">Войти через Facebook</a>
+        </div>
+        <div class="modal__form">
+          <h3 class="modal__formtheme">Задать вопрос</h3>
+          <form class="form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+            <input class="input" aria-label="enter your name" type="text" name="last_name" minlength="2" placeholder="Ваше имя" required>
+            <textarea class="textarea" aria-label="enter your text" placeholder="Опишите Ваш вопрос." name="feedback" cols="30" rows="10" minlength="2"></textarea>
+            <button class="btn-dark" type="submit">Отправить </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
   </body>
   </html>
